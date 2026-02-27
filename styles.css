@@ -59,12 +59,24 @@ table {
     --soft-white: #FAF9F6;
 }
 
-/* GLOBAL STYLES (small) */
+/* GLOBAL STYLES (first/small) */
 
 body {
     background-color: var(--linen);
     box-sizing: border-box;
     font-family: "Playfair Display";  
+}
+
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 900px) { 
+
+ }
+
+@media (min-width: 1200px) { 
+    
 }
 
 
@@ -73,6 +85,14 @@ header {
     color: var(--linen);
     font-family: "Playfair Display";
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header p {
+    font-style: italic;
 }
 
 h1 {
@@ -109,5 +129,39 @@ footer {
     font-weight: bold;
     color: var(--linen);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+#navbar {
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    background-color: var(--champagne-gold);
+    bottom:0;
+    color: var(--dark-charcoal);
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+
+
+div {
+    background-color: var(--linen);
+}
+
+
+.button {
+    background-color: var(--olive-green);
 }
 
