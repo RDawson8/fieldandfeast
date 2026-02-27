@@ -67,3 +67,47 @@ body {
     font-family: "Playfair Display";  
 }
 
+
+header {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.1em;
+    text-align: left;
+    font-weight: bold;
+}
+
+p {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+img {
+    align-items: left;
+}
+
+footer {
+    background-color: var(--midnight-blue);
+    font-weight: bold;
+    color: var(--linen);
+    text-align: center;
+}
+
